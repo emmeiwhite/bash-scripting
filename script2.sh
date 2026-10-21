@@ -21,3 +21,4 @@ echo $profession
 
 read -sp "Enter your password: " password
 echo "Your password is : $password"
+
