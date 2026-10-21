@@ -27,3 +27,10 @@ fi
 systemAdmin=Emmei
 
 echo "Welcome $systemAdmin"
+
+# For Loops
+
+for num in {1..5};do
+   echo $num;
+   sleep 0.5
+done   
