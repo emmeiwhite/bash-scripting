@@ -34,3 +34,15 @@ for num in {1..5};do
    echo $num;
    sleep 0.5
 done   
+
+# Lists
+animals=("Cat" "Dog" "Lion")
+
+for animal in "${animals[@]}"; do
+  echo "$animal"
+done
+
+ # Index based syntax
+for ((i = 0; i < ${#animals[@]}; i++)); do
+  echo "${animals[$i]}"
+done
